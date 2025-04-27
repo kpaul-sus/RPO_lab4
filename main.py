@@ -16,6 +16,9 @@ def main():
     file.write(str(mult(a, b)))
     file.write('\n')
     
+    file.write("Деление")
+    file.write(str(div(a, b)))
+    file.write('\n')
 
 def add( a, b ):
     return a + b
@@ -25,6 +28,9 @@ def mult( a, b ):
 
 def sub( a, b ):
     return a - b
+
+def div( a, b ):
+    return a / b
 
 if __name__ == "__main__":
     main()
