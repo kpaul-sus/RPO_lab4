@@ -14,12 +14,10 @@ def main():
     
 
 def add( a, b ):
-    res = a + b
-    return res
+    return a + b
 
 def mult( a, b ):
-    res = a * b
-    return res
+    return a * b
 
 if __name__ == "__main__":
     main()
