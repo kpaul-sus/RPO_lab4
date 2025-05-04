@@ -3,16 +3,12 @@ def main():
     file = open('result.txt', 'w')
     a = int(input("Введите первый операнд: "))
     b = int(input("Введите второй операнд: "))
-    
-    file.write("Сложение\n")
+
+    print("Сложение")
     file.write(str(add(a, b)))
     file.write('\n')
-    
-    file.write("Вычитание\n")
-    file.write(str(sub(a, b)))
-    file.write('\n')
 
-    file.write("Умножение\n")
+    print("Умножение")
     file.write(str(mult(a, b)))
     file.write('\n')
     
